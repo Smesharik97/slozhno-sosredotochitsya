@@ -1,6 +1,7 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   background: var(--primary);
+  background-attachment: fixed;
   font-size: 18px;
   font-family: "IBM Plex mono", monospace;
   line-height: 1.3;
