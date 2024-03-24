@@ -1,0 +1,25 @@
+.header__theme-menu-button {
+  cursor: pointer;
+  width: 70px;
+  height: 26px;
+  text-transform: lowercase;
+  border: none;
+  background: transparent;
+  color: var(--heading-decor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__theme-menu-button_active {
+  border: thin solid currentcolor;
+}
+
+.header__theme-menu-button:focus {
+  border-bottom: thin solid currentcolor;
+  outline: none;
+}
+
+.header__theme-menu-button:hover {
+  border: thin solid var(--header-navigation-button);
+}

@@ -9,4 +9,13 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --primary: #000028;
+  --accent-color: #ff0070;
+  --ty-primary: #f1b2ce;
+  --header: #db00ff;
+  /* Heading */
+  --heading-decor: var(--accent-color);
+  --heading-decor-with-background: var(--primary);
+  --header-background-image: url("../images/cover-image-dark.png");
+  --header-navigation-button: rgba(255 0 112 / 0.4);
 }

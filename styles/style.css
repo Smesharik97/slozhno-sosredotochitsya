@@ -1,5 +1,16 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-.page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+.heading-decor {
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--heading-decor);
+}
+
+.heading-decor_with_background {
+  background: var(--accent-color);
+  color: var(--heading-decor-with-background);
+}
+
+h4.heading-decor_with_background {
+  font-weight: normal;
 }
