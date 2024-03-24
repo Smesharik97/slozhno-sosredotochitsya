@@ -1,1 +1,0 @@
-[Проект](https://github.com/Smesharik97/slozhno-sosredotochitsya.git)
