@@ -98,7 +98,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   justify-self: start;
   text-shadow: 4px 4px 0 var(--accent-color);
-  line-height: 0.8;
+  line-height: 0.828;
   color: var(--header);
 }
 
@@ -127,6 +127,7 @@
 
   .page__section_id_header {
     grid-template-rows: 1fr min-content 1fr;
+    gap: 162px;
   }
 
   .page__heading {
