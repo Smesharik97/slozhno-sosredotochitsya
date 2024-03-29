@@ -20,7 +20,7 @@
 
 .page__section:not(main)::after,
 .page__section:not(main)::before {
-  color: var(--accent-color);
+  color: var(--heading-decor);
   content: "";
   height: 25px;
   width: 25px;
@@ -150,11 +150,13 @@
 
   .page__section_id_header {
     grid-template-rows: 1fr min-content 1fr;
+    gap: 114px;
   }
 
   .page__navigation {
     justify-self: center;
-    align-self: end;
+    align-self: start;
+    margin-top: 20px;
   }
 
   .page__navigation ul {
