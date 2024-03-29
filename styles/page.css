@@ -110,6 +110,7 @@
 .page__subheading {
   align-self: start;
   justify-self: end;
+  font-weight: bold;
 }
 
 .page__topic:not(:last-of-type) {

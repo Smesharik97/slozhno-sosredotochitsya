@@ -8,6 +8,7 @@
     --heading-decor: var(--accent-color);
     --heading-decor-with-background: var(--primary);
     --header-background-image: url("../images/cover-image-dark.png");
+    --header-navigation-button: rgba(255 0 112 / 0.4);
   }
 }
 
@@ -21,6 +22,8 @@
     --heading-decor: inherit;
     --heading-decor-with-background: inherit;
     --header-background-image: url("../images/cover-image-light.png");
+    --header-navigation-button: rgba(53 52 48 / 0.4);
+
     .page__record {
       display: none;
     }
