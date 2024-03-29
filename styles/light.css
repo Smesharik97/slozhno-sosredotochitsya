@@ -20,6 +20,24 @@
   --header-navigation-button: rgba(53 52 48 / 0.4);
 }
 
+@media (prefers-color-scheme: light) {
+  .page {
+    --primary: #fff1f7;
+    --accent-color: #ff8dcb;
+    --ty-primary: #353430;
+    --header: #ffc2e6;
+    /* Heading */
+    --heading-decor: inherit;
+    --heading-decor-with-background: inherit;
+    --header-background-image: url("../images/cover-image-light.png");
+    --header-navigation-button: rgba(53 52 48 / 0.4);
+
+    .page__record {
+      display: none;
+    }
+  }
+}
+
 .page.theme_light .page__record {
   display: none;
 }

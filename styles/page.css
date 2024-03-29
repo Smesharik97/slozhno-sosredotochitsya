@@ -1,7 +1,9 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background: var(--primary);
+  background: var(--header-background-image);
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   font-size: 18px;
   font-family: "IBM Plex mono", monospace;
   line-height: 1.3;
@@ -42,9 +44,6 @@
 }
 
 .page__section_id_header {
-  background-image: var(--header-background-image);
-  background-size: cover;
-  background-position: center;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
