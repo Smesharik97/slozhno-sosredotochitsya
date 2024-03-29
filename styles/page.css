@@ -15,7 +15,7 @@
 }
 
 .page__section:not(main) {
-  height: 668px;
+  min-height: 668px;
 }
 
 .page__section:not(main)::after,
@@ -122,7 +122,7 @@
   }
 
   .page__section:not(main) {
-    height: 1024px;
+    min-height: 1024px;
   }
 
   .page__section_id_header {
@@ -145,7 +145,7 @@
 
 @media screen and (width >= 1024px) {
   .page__section:not(main) {
-    height: 768px;
+    min-height: 768px;
   }
 
   .page__section_id_header {

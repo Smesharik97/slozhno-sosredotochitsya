@@ -17,6 +17,10 @@
   margin-bottom: 10px;
 }
 
+.topic__sections p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .topic__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -39,7 +43,7 @@
 @media screen and (width >= 768px) {
   .topic:not(:last-of-type) {
     display: grid;
-    grid-template-columns: min(31vw, 315px) 1fr;
+    grid-template-columns: min(30.7vw, 315px) 1fr;
     gap: 20px;
   }
 
@@ -51,9 +55,13 @@
     grid-row: 1 / -3;
   }
 
+  .topic__heading,
+  .topic__heading + h3 {
+    margin-bottom: 0;
+  }
+
   .topic__heading + h3 {
     grid-column: 2;
-    margin-bottom: 0;
   }
 
   .topic__sections_id_gallery {
@@ -64,6 +72,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 25vw 29.94vw 41.4vw;
     gap: 20px;
+    margin-top: 20px;
   }
 
   .topic__sections_id_gallery li:nth-child(1) {

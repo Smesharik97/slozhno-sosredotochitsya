@@ -21,5 +21,8 @@
     --heading-decor: inherit;
     --heading-decor-with-background: inherit;
     --header-background-image: url("../images/cover-image-light.png");
+    .page__record {
+      display: none;
+    }
   }
 }

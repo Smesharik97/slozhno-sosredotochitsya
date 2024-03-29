@@ -13,6 +13,7 @@
 
 .header__theme-menu-button_active {
   border: thin solid currentcolor;
+  pointer-events: none;
 }
 
 .header__theme-menu-button:focus {
