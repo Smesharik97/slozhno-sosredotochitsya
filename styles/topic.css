@@ -41,7 +41,7 @@
 }
 
 @media screen and (width >= 768px) {
-  .topic:not(:last-of-type) {
+  .topic:not(.topic_id_gallery) {
     display: grid;
     grid-template-columns: min(30.7vw, 315px) 1fr;
     gap: 20px;

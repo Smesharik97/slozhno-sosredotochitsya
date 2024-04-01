@@ -139,7 +139,7 @@
   }
 
   .page__subheading {
-    width: 50vw;
+    width: calc(50vw - 20px);
   }
 }
 
