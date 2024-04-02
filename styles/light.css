@@ -31,10 +31,9 @@
     --heading-decor-with-background: inherit;
     --header-background-image: url("../images/cover-image-light.png");
     --header-navigation-button: rgba(53 52 48 / 0.4);
-
-    .page__record {
-      display: none;
-    }
+  }
+  .page.theme_auto .page__record {
+    display: none;
   }
 }
 
